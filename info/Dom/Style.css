@@ -1,0 +1,24 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.sports{
+    background-color: aquamarine;
+    width: 20rem;
+    margin: 0;
+    padding: 20px;
+}
+
+button{
+    background-color: yellowgreen;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: large;
+}
