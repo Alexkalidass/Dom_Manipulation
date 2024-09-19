@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Index.css">
+    <title>Ticket Booking Application</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>"GoTickets: Fast, Easy, Secure"</h2>
+        </div>
+        <div class="button-area">
+            <button id="startbooking">Start Booking</button>
+        </div>
+    
+        <div class="open-form">
+            <div class="details">
+                <h4>Total Seats: 100</h4>
+                <h4>Seats Available: <span id="available">100</span></h4>
+                <h4>Total Tickets Sold: <span id="sold">0</span></h4>
+                <button id="trackbtn">Track Tickets</button>
+                <div class="popup-tracktickets" >
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email"  placeholder="Enter apllied email">
+                    </div>
+                    <button id="Ok">Enter</button>
+                </div>
+            </div>
+            <form id="booking-form"> 
+                <div class="row">
+                    <div>
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div>
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div>
+                        <label for="tickets">No.of Tickets</label>
+                        <input type="text" id="tickets" name="tickets" required>
+                    </div>
+                    <div>
+                        <label for="phone">Phone</label>
+                        <input type="tel" id="phone" name="phone"  required>
+                    </div>
+                    <div>
+                        <label for="from">From </label>
+                        <input type="text" id="from" name="from" required>
+                    </div>
+                    <div>
+                        <label for="to">To </label>
+                        <input type="text" id="to" name="to" required>
+                    </div>
+                    
+                </div>
+                <button type="submit" id="submit">Buy Now</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="Index.js"></script>
+</body>
+</html>
